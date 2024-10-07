@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
-    outline: 1px solid #1A5319;
+    /* outline: 1px solid #1A5319; */
 }
 
 body {
-    /* @apply bg-background text-primary; */
+    @apply bg-backgroundColor text-primaryColor;
+    font-family: "Fira Code", monospace;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
