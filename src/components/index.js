@@ -1,1 +1,5 @@
-export * from ''
+export * from './bars/Header.jsx'
+export * from './bars/Footer.jsx'
+export * from './for_project/MobileProject.jsx'
+export * from './for_project/WebProject.jsx'
+export * from './for_home/HeroSection.jsx'

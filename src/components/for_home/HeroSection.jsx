@@ -1,13 +1,13 @@
-import { BsWhatsapp } from "react-icons/bs";
 import React from 'react'
 // Icons
 import * as iconsUtil from '@/utils/icons.util'
+import { BsWhatsapp } from "react-icons/bs";
 // Images
 import HeroPhoto from '@/assets/images/for_home/Image.png'
-import Maiz from '@/assets/images/for_home/projects/maiz.png'
-import Clicon from '@/assets/images/for_home/projects/clicon.png'
-import Florenza from '@/assets/images/for_home/projects/florenza.png'
-import { BigRectangleIcon, EmailIcon, RectangleDotsIcon, RectangleIcon, SquareDotsIcon } from '../../utils/icons.util'
+// Components
+import { ProjectSection } from "./ProjectSection";
+import { AboutSection } from './AboutSection';
+
 
 export const HeroSection = () => {
     return (
@@ -20,7 +20,7 @@ export const HeroSection = () => {
                         Mohamed is a <span className='text-secondaryColor'>front-end developer</span> and <span className='text-secondaryColor'>web designer</span>
                     </p>
                     <p className='leading-6 mt-8 max-w-[463px]'>He crafts responsive websites where technologies meet creativity</p>
-                    <button className='font-medium py-2 px-4 border-2 border-primaryColor mt-6'>Contact me!!</button>
+                    <button className='font-medium py-2 px-4 border-2 border-primaryColor mt-6 hover:bg-primaryColor/90 hover:text-secondaryColor'>Contact me!!</button>
                 </span>
                 <span className='relative'>
                     <span className='absolute -z-10'>
@@ -51,69 +51,7 @@ export const HeroSection = () => {
                 </p>
             </section>
 
-            {/* Projects Section */}
-            <section className='flex flex-col mt-24'>
-
-                {/* header */}
-                <header className='flex justify-between'>
-                    <div className='flex justify-between items-center'>
-                        <p className='font-medium text-3xl'>
-                            <span className='text-secondaryColor'>#</span>
-                            projects
-                        </p>
-                        <span className='pl-4'>
-                            <iconsUtil.LineHIcon />
-                        </span>
-                    </div>
-                    <button className='font-medium'>View all ~~&gt;</button>
-                </header>
-
-                {/* main */}
-                <main className='flex gap-4 mt-12'>
-                    {/* project 1 */}
-                    <article className='max-w-96 border border-primaryColor'>
-                        <img src={Florenza} alt='Project Photo' />
-                        <p className='px-2 border-y border-primaryColor'>HTML CSS JavaScript</p>
-                        <span className='flex flex-col gap-4 p-4'>
-                            <p className='font-medium text-2xl'>Florenza</p>
-                            <p>Online Gift Shop for Flowers</p>
-                            <span className='flex gap-4'>
-                                <button className='flex items-center gap-1 font-medium py-2 px-4 border-2 border-primaryColor mt-6'>Live<iconsUtil.CurlArrowIcon /></button>
-                                <button className='font-medium py-2 px-4 border-2 border-primaryColor mt-6'>Code &gt;</button>
-                            </span>
-                        </span>
-                    </article>
-                    {/* project 2 */}
-                    <article className='max-w-96 border border-primaryColor'>
-                        <img src={Clicon} alt='Project Photo' />
-                        <p className='px-2 border-y border-primaryColor'>React Vite Tailwind CSS</p>
-                        <span className='flex flex-col gap-4 p-4'>
-                            <p className='font-medium text-2xl'>C L I C O N</p>
-                            <p>eCommerce platform</p>
-                            <span className='flex gap-4'>
-                                <button className='flex items-center gap-1 font-medium py-2 px-4 border-2 border-primaryColor mt-6'>Live<iconsUtil.CurlArrowIcon /></button>
-                                <button className='font-medium py-2 px-4 border-2 border-primaryColor mt-6'>Code &gt;</button>
-                            </span>
-                        </span>
-                    </article>
-                    {/* project 3 */}
-                    <article className='max-w-96 border border-primaryColor'>
-                        <img src={Maiz} alt='Project Photo' />
-                        <p className='px-2 border-y border-primaryColor'>React Vite Tailwind CSS</p>
-                        <span className='flex flex-col gap-4 p-4'>
-                            <p className='font-medium text-2xl'>MAIZ</p>
-                            <p>Saudi cuisine restaurant</p>
-                            <span className='flex gap-4'>
-                                <button className='flex items-center gap-1 font-medium py-2 px-4 border-2 border-primaryColor mt-6'>Live<iconsUtil.CurlArrowIcon /></button>
-                                <button className='font-medium py-2 px-4 border-2 border-primaryColor mt-6'>Code &gt;</button>
-                            </span>
-                        </span>
-                    </article>
-                </main>
-                <span className='absolute right-0 top-[1100px] scale-x-[-1]'>
-                    <BigRectangleIcon />
-                </span>
-            </section>
+            <ProjectSection />
 
             {/* Skills Section */}
             <section className='flex flex-col mt-24'>
@@ -189,47 +127,7 @@ export const HeroSection = () => {
             </section>
 
             {/* About Section */}
-            <section className='flex flex-col mt-24'>
-
-                {/* header */}
-                <header className='flex items-center'>
-                    <p className='font-medium text-3xl'>
-                        <span className='text-secondaryColor'>#</span>
-                        about-me
-                    </p>
-                    <span className='pl-4'>
-                        <iconsUtil.LineHIcon />
-                    </span>
-                </header>
-
-                {/* main */}
-                <main className='flex justify-between mt-12 w-[1184px]'>
-                    {/* info */}
-                    <article className='flex flex-col gap-7 max-w-[515px]'>
-                        <p>Hello, i’m Elias!</p>
-                        <p>I’m a self-taught front-end developer based in Kyiv, Ukraine. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences. </p>
-                        <p>Transforming my creativity and knowledge into a websites has been my passion for over a year. I have been helping various clients to establish their presence online. I always strive to learn about the newest technologies and frameworks.</p>
-                        <button className='max-w-52 font-medium py-2 px-4 border-2 border-primaryColor mt-6'>Read more -&gt;</button>
-                    </article>
-
-                    {/* photo */}
-                    <aside className='relative'>
-                        <span className='absolute left-5'>
-                            <SquareDotsIcon />
-                        </span>
-                        <img src={HeroPhoto} alt='Personal Photo' className='border-b border-primaryColor' />
-                        <span className='absolute right-10 bottom-5'>
-                            <SquareDotsIcon />
-                        </span>
-                    </aside>
-                </main>
-                <span className='absolute right-0 top-[2100px]'>
-                    <RectangleDotsIcon />
-                </span>
-                <span className='absolute left-0 top-[2100px]'>
-                    <BigRectangleIcon />
-                </span>
-            </section>
+            <AboutSection />
 
 
             {/* Contact Section */}
@@ -257,13 +155,13 @@ export const HeroSection = () => {
                     <aside>
                         <div className='border border-primaryColor p-4'>
                             <p className='font-semibold mb-4'>Message me here</p>
-                            <a href="mailto:mohamed.devmaster@gmail.com" className='hover:underline flex gap-1 items-center mb-2'><EmailIcon />mohamed.devmaster@gmail.com</a>
+                            <a href="mailto:mohamed.devmaster@gmail.com" className='hover:underline flex gap-1 items-center mb-2'><iconsUtil.EmailIcon />mohamed.devmaster@gmail.com</a>
                             <a href="https://wa.me/+201101201745" className='hover:underline flex gap-1 items-center'><BsWhatsapp size={25} className='m-[5px]' />01101201745</a>
                         </div>
                     </aside>
                 </main>
                 <span className='absolute left-0 top-[2550px]'>
-                    <RectangleDotsIcon />
+                    <iconsUtil.RectangleDotsIcon />
                 </span>
             </section>
 
