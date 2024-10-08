@@ -1,3 +1,4 @@
+import { BsWhatsapp } from "react-icons/bs";
 import React from 'react'
 // Icons
 import * as iconsUtil from '@/utils/icons.util'
@@ -6,14 +7,15 @@ import HeroPhoto from '@/assets/images/for_home/Image.png'
 import Maiz from '@/assets/images/for_home/projects/maiz.png'
 import Clicon from '@/assets/images/for_home/projects/clicon.png'
 import Florenza from '@/assets/images/for_home/projects/florenza.png'
+import { BigRectangleIcon, EmailIcon, RectangleDotsIcon, RectangleIcon, SquareDotsIcon } from '../../utils/icons.util'
 
 export const HeroSection = () => {
     return (
         <main className='relative flex flex-col items-center'>
 
             {/* Info Section */}
-            <section className='flex justify-between max-w-[1366px] mt-16 gap-7'>
-                <span className='mt-1'>
+            <section className='flex justify-between items-center mt-20 gap-20'>
+                <span>
                     <p className='font-semibold text-3xl max-w-[580px]'>
                         Mohamed is a <span className='text-secondaryColor'>front-end developer</span> and <span className='text-secondaryColor'>web designer</span>
                     </p>
@@ -34,7 +36,7 @@ export const HeroSection = () => {
             </section>
 
             {/* Wisdom Section */}
-            <section className='flex flex-col items-end mt-28'>
+            <section className='flex flex-col items-end mt-20'>
                 <p className='relative text-2xl font-medium border border-primaryColor p-8'>
                     Every problem has a solution, just code it right
                     <span className='absolute -top-4 left-5 bg-backgroundColor p-1'>
@@ -108,6 +110,9 @@ export const HeroSection = () => {
                         </span>
                     </article>
                 </main>
+                <span className='absolute right-0 top-[1100px] scale-x-[-1]'>
+                    <BigRectangleIcon />
+                </span>
             </section>
 
             {/* Skills Section */}
@@ -184,12 +189,82 @@ export const HeroSection = () => {
             </section>
 
             {/* About Section */}
-            <section className='flex flex-col items-end mt-28'>
+            <section className='flex flex-col mt-24'>
 
+                {/* header */}
+                <header className='flex items-center'>
+                    <p className='font-medium text-3xl'>
+                        <span className='text-secondaryColor'>#</span>
+                        about-me
+                    </p>
+                    <span className='pl-4'>
+                        <iconsUtil.LineHIcon />
+                    </span>
+                </header>
+
+                {/* main */}
+                <main className='flex justify-between mt-12 w-[1184px]'>
+                    {/* info */}
+                    <article className='flex flex-col gap-7 max-w-[515px]'>
+                        <p>Hello, i’m Elias!</p>
+                        <p>I’m a self-taught front-end developer based in Kyiv, Ukraine. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences. </p>
+                        <p>Transforming my creativity and knowledge into a websites has been my passion for over a year. I have been helping various clients to establish their presence online. I always strive to learn about the newest technologies and frameworks.</p>
+                        <button className='max-w-52 font-medium py-2 px-4 border-2 border-primaryColor mt-6'>Read more -&gt;</button>
+                    </article>
+
+                    {/* photo */}
+                    <aside className='relative'>
+                        <span className='absolute left-5'>
+                            <SquareDotsIcon />
+                        </span>
+                        <img src={HeroPhoto} alt='Personal Photo' className='border-b border-primaryColor' />
+                        <span className='absolute right-10 bottom-5'>
+                            <SquareDotsIcon />
+                        </span>
+                    </aside>
+                </main>
+                <span className='absolute right-0 top-[2100px]'>
+                    <RectangleDotsIcon />
+                </span>
+                <span className='absolute left-0 top-[2100px]'>
+                    <BigRectangleIcon />
+                </span>
             </section>
 
+
             {/* Contact Section */}
-            <section className='flex flex-col items-end mt-28'>
+            <section className='flex flex-col mt-24'>
+
+                {/* header */}
+                <header className='flex items-center'>
+                    <p className='font-medium text-3xl'>
+                        <span className='text-secondaryColor'>#</span>
+                        contacts
+                    </p>
+                    <span className='pl-4'>
+                        <iconsUtil.LineHIcon />
+                    </span>
+                </header>
+
+                {/* main */}
+                <main className='flex justify-between mt-12 w-[1184px]'>
+                    {/* info */}
+                    <article className='flex flex-col gap-7 max-w-[515px]'>
+                        <p className='font-medium'>I’m interested in freelance opportunities. However, if you have other request or question, don’t hesitate to contact me</p>
+                    </article>
+
+                    {/* contact */}
+                    <aside>
+                        <div className='border border-primaryColor p-4'>
+                            <p className='font-semibold mb-4'>Message me here</p>
+                            <a href="mailto:mohamed.devmaster@gmail.com" className='hover:underline flex gap-1 items-center mb-2'><EmailIcon />mohamed.devmaster@gmail.com</a>
+                            <a href="https://wa.me/+201101201745" className='hover:underline flex gap-1 items-center'><BsWhatsapp size={25} className='m-[5px]' />01101201745</a>
+                        </div>
+                    </aside>
+                </main>
+                <span className='absolute left-0 top-[2550px]'>
+                    <RectangleDotsIcon />
+                </span>
             </section>
 
         </main>

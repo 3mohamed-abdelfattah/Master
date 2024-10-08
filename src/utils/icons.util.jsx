@@ -67,6 +67,31 @@ export const CurlArrowIcon = () => (
     </svg>
 );
 
+export const RectangleDotsIcon = () => (
+    <svg width="80" height="103" viewBox="0 0 80 103" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="2" cy="2" r="2" fill="#102C57" />
+        <circle cx="26.75" cy="2" r="2" fill="#102C57" />
+        <circle cx="51.5" cy="2" r="2" fill="#102C57" />
+        <circle cx="76.25" cy="2" r="2" fill="#102C57" />
+        <circle cx="2" cy="26.75" r="2" fill="#102C57" />
+        <circle cx="26.75" cy="26.75" r="2" fill="#102C57" />
+        <circle cx="51.5" cy="26.75" r="2" fill="#102C57" />
+        <circle cx="76.25" cy="26.75" r="2" fill="#102C57" />
+        <circle cx="2" cy="51.5" r="2" fill="#102C57" />
+        <circle cx="26.75" cy="51.5" r="2" fill="#102C57" />
+        <circle cx="51.5" cy="51.5" r="2" fill="#102C57" />
+        <circle cx="76.25" cy="51.5" r="2" fill="#102C57" />
+        <circle cx="2" cy="76.25" r="2" fill="#102C57" />
+        <circle cx="26.75" cy="76.25" r="2" fill="#102C57" />
+        <circle cx="51.5" cy="76.25" r="2" fill="#102C57" />
+        <circle cx="76.25" cy="76.25" r="2" fill="#102C57" />
+        <circle cx="2" cy="101" r="2" fill="#102C57" />
+        <circle cx="26.75" cy="101" r="2" fill="#102C57" />
+        <circle cx="51.5" cy="101" r="2" fill="#102C57" />
+        <circle cx="76.25" cy="101" r="2" fill="#102C57" />
+    </svg>
+);
+
 export const SquareDotsIcon = () => (
     <svg width="63" height="63" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
         <circle cx="2" cy="2" r="2" fill="#102C57" />
@@ -106,5 +131,11 @@ export const RectangleIcon = () => (
 export const SmallRectangleIcon = () => (
     <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect x="0.5" y="0.5" width="51" height="51" stroke="#102C57" />
+    </svg>
+);
+
+export const BigRectangleIcon = () => (
+    <svg width="78" height="155" viewBox="0 0 78 155" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="-76.5" y="0.5" width="154" height="154" stroke="#102C57" />
     </svg>
 );

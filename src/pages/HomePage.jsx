@@ -4,7 +4,8 @@ import React, { Fragment } from 'react'
 import { Header } from '../components/bars/Header'
 import { HeroSection } from '../components/for_home/HeroSection'
 import { GithubIcon, LineIcon } from '@/utils/icons.util'
-import { SquareIcon } from "../utils/icons.util";
+import { RectangleDotsIcon, SquareIcon } from "../utils/icons.util";
+import { Footer } from "../components/bars/Footer";
 
 export const HomePage = () => {
 
@@ -26,8 +27,11 @@ export const HomePage = () => {
                 <SquareIcon />
             </span>
 
+
+
             <Header />
             <HeroSection />
+            <Footer />
         </Fragment>
     )
 }
