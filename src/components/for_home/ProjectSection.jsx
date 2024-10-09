@@ -6,14 +6,18 @@ import * as iconsUtil from '@/utils/icons.util'
 import Maiz from '@/assets/images/for_projects/web/maiz.png'
 import Clicon from '@/assets/images/for_projects/web/clicon.png'
 import Florenza from '@/assets/images/for_projects/web/florenza.png'
+// motion
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export const ProjectSection = () => {
+    AOS.init();
     return (
         <section className='flex flex-col mt-24'>
 
             {/* header */}
             <header className='flex justify-between'>
-                <div className='flex justify-between items-center'>
+                <div className='flex justify-between items-center' data-aos="fade-right" data-aos-duration="1000">
                     <p className='font-medium text-3xl'>
                         <span className='text-secondaryColor'>#</span>
                         projects
@@ -22,7 +26,7 @@ export const ProjectSection = () => {
                         <iconsUtil.LineHIcon />
                     </span>
                 </div>
-                <Link to='/projects'>
+                <Link to='/projects' data-aos="fade-left" data-aos-duration="1000">
                     <button className='font-medium hover:underline'>View all ~~&gt;</button>
                 </Link>
             </header>
@@ -30,7 +34,7 @@ export const ProjectSection = () => {
             {/* main */}
             <main className='flex gap-4 mt-12'>
                 {/* project 1 */}
-                <article className='max-w-96 border border-primaryColor'>
+                <article className='max-w-96 border border-primaryColor' data-aos="fade-right" data-aos-duration="2000">
                     <img src={Florenza} alt='Project Photo' />
                     <p className='px-2 border-y border-primaryColor'>HTML CSS JavaScript</p>
                     <span className='flex flex-col gap-4 p-4'>
@@ -47,7 +51,7 @@ export const ProjectSection = () => {
                     </span>
                 </article>
                 {/* project 2 */}
-                <article className='max-w-96 border border-primaryColor'>
+                <article className='max-w-96 border border-primaryColor' data-aos="fade-right" data-aos-duration="1500">
                     <img src={Clicon} alt='Project Photo' />
                     <p className='px-2 border-y border-primaryColor'>React Vite Tailwind CSS</p>
                     <span className='flex flex-col gap-4 p-4'>
@@ -64,7 +68,7 @@ export const ProjectSection = () => {
                     </span>
                 </article>
                 {/* project 3 */}
-                <article className='max-w-96 border border-primaryColor'>
+                <article className='max-w-96 border border-primaryColor' data-aos="fade-right" data-aos-duration="1000">
                     <img src={Maiz} alt='Project Photo' />
                     <p className='px-2 border-y border-primaryColor'>React Vite Tailwind CSS</p>
                     <span className='flex flex-col gap-4 p-4'>

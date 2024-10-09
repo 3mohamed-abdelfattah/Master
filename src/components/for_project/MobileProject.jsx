@@ -2,14 +2,18 @@ import React from 'react'
 import { Link } from "react-router-dom";
 // Icons
 import { RectangleDotsIcon, BigRectangleIcon } from '@/utils/icons.util';
+// motion
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export const MobileProject = () => {
+    AOS.init();
     return (
         <main className='relative flex flex-col items-center'>
 
             <section className='flex flex-col mt-16'>
                 {/* header */}
-                <header className='mx-44'>
+                <header className='mx-44' data-aos="fade-right" data-aos-duration="1000" data-aos-offset="450">
                     <p className='mt-10 text-2xl font-medium'>
                         <span className='text-secondaryColor'># </span>
                         Mobile-Projects
@@ -20,7 +24,7 @@ export const MobileProject = () => {
                 <main className='flex flex-wrap justify-center gap-4 mt-6'>
 
                     {/* project 1 */}
-                    <article className='max-w-96 border border-primaryColor h-fit'>
+                    <article className='max-w-96 border border-primaryColor h-fit' data-aos="fade-right" data-aos-duration="2000" data-aos-offset="600">
                         <p className='px-2 border-b border-primaryColor'>Kotlin UI/UX Jetpack-Compose Ktor</p>
                         <span className='flex flex-col gap-4 p-4'>
                             <p className='font-medium text-2xl'>Little Lemon</p>
@@ -32,7 +36,7 @@ export const MobileProject = () => {
                     </article>
 
                     {/* project 2 */}
-                    <article className='max-w-96 border border-primaryColor h-fit'>
+                    <article className='max-w-96 border border-primaryColor h-fit' data-aos="fade-right" data-aos-duration="1500" data-aos-offset="600">
                         <p className='px-2 border-b border-primaryColor'>Kotlin XML</p>
                         <span className='flex flex-col gap-4 p-4'>
                             <p className='font-medium text-2xl'>FitWave</p>
@@ -44,7 +48,7 @@ export const MobileProject = () => {
                     </article>
 
                     {/* project 3 */}
-                    <article className='max-w-96 border border-primaryColor h-fit'>
+                    <article className='max-w-96 border border-primaryColor h-fit' data-aos="fade-right" data-aos-duration="1000" data-aos-offset="600">
                         <p className='px-2 border-b border-primaryColor'>Kotlin XML Firebase</p>
                         <span className='flex flex-col gap-4 p-4'>
                             <p className='font-medium text-2xl'>BrandStep</p>
@@ -56,7 +60,7 @@ export const MobileProject = () => {
                     </article>
 
                     {/* project 4 */}
-                    <article className='max-w-96 border border-primaryColor h-fit'>
+                    <article className='max-w-96 border border-primaryColor h-fit' data-aos="fade-left" data-aos-duration="1000" data-aos-offset="600">
                         <p className='px-2 border-b border-primaryColor'>Kotlin MVVM Compose-Multiplatform</p>
                         <span className='flex flex-col gap-4 p-4'>
                             <p className='font-medium text-2xl'>ToDoWiz</p>
@@ -68,7 +72,7 @@ export const MobileProject = () => {
                     </article>
 
                     {/* project 5 */}
-                    <article className='max-w-96 border border-primaryColor h-fit'>
+                    <article className='max-w-96 border border-primaryColor h-fit' data-aos="fade-left" data-aos-duration="1500" data-aos-offset="600">
                         <p className='px-2 border-b border-primaryColor'>Flutter</p>
                         <span className='flex flex-col gap-4 p-4'>
                             <p className='font-medium text-2xl'>Pizza-Slice</p>

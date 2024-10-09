@@ -3,31 +3,38 @@ import React from 'react'
 import * as iconsUtil from '@/utils/icons.util'
 import { BsWhatsapp } from "react-icons/bs";
 // Images
-import HeroPhoto from '@/assets/images/for_home/rex.gif'
+import HeroPhoto from '../../assets/images/for_home/rex.gif'
 // Components
 import { ProjectSection } from "./ProjectSection";
 import { AboutSection } from './AboutSection';
-
+// motion
+import { motion } from "framer-motion"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export const HeroSection = () => {
+    AOS.init();
     return (
         <main className='relative flex flex-col items-center'>
 
             {/* Info Section */}
             <section className='flex justify-between items-center mt-36 gap-20'>
                 <span>
-                    <p className='font-semibold text-3xl max-w-[580px]'>
+                    <p className='font-semibold text-4xl max-w-[580px]' data-aos="fade-right" data-aos-duration="1000">
                         Mohamed is a <span className='text-secondaryColor'>front-end developer</span> and <span className='text-secondaryColor'>web designer</span>
                     </p>
-                    <p className='leading-6 mt-8 max-w-[463px]'>He crafts responsive websites where technologies meet creativity</p>
-                    <button className='font-medium py-2 px-4 border-2 border-primaryColor mt-6 hover:bg-primaryColor/90 hover:text-secondaryColor'>Contact me!!</button>
+                    <p className='leading-6 mt-8 text-xl max-w-[463px]' data-aos="fade-right" data-aos-duration="1300">He crafts responsive websites where technologies meet creativity...</p>
+                    <button className='font-medium py-2 px-4 border-2 border-primaryColor mt-6 hover:bg-primaryColor/90 hover:text-secondaryColor' data-aos="fade-right" data-aos-duration="1700">Contact me!!</button>
                 </span>
-                <span className='relative'>
-                    <span className='absolute -top-20 -right-20 -z-10'>
+                <span className='relative' data-aos="fade-left" data-aos-duration="2000">
+                    <span className='absolute -top-16 -z-10'>
                         <iconsUtil.CubeShape />
                     </span>
-                    <img src={HeroPhoto} alt='Hero photo' width={500} className='rounded-t-3xl' />
-                    <p className='flex items-center p-2 border-2 border-primaryColor font-medium gap-2'>
+                    <div className='relative'>
+                        <div className='absolute w-full h-full bg-black/10 rounded-t-3xl'></div>
+                        <img src={HeroPhoto} alt='Hero photo' width={480} className='rounded-t-3xl' />
+                    </div>
+                    <p className='flex items-center p-2 border-2 border-primaryColor font-medium gap-2 z-40'>
                         <span className='animate-pulse'>
                             <iconsUtil.RectangleShape />
                         </span>
@@ -38,7 +45,12 @@ export const HeroSection = () => {
             </section>
 
             {/* Wisdom Section */}
-            <section className='flex flex-col items-end mt-28'>
+            <section
+                className='flex flex-col items-end mt-28' data-aos="fade-right"
+                data-aos-offset="100"
+                data-aos-duration="2000"
+                data-aos-easing="ease-in-sine"
+            >
                 <p className='relative text-2xl font-medium border border-primaryColor p-8'>
                     Every problem has a solution, just code it right
                     <span className='absolute -top-4 left-5 bg-backgroundColor p-1'>
@@ -59,7 +71,7 @@ export const HeroSection = () => {
             <section className='flex flex-col mt-24'>
 
                 {/* header */}
-                <header className='flex items-center'>
+                <header className='flex items-center' data-aos="fade-right" data-aos-duration="1000">
                     <p className='font-medium text-3xl'>
                         <span className='text-secondaryColor'>#</span>
                         skills
@@ -92,14 +104,18 @@ export const HeroSection = () => {
 
                     {/* language */}
                     <section className='flex gap-4'>
-                        <article>
+                        <article
+                            data-aos="zoom-in" data-aos-duration="1000"
+                        >
                             <div className='border border-primaryColor w-52'>
                                 <p className='font-semibold border-b border-primaryColor p-2'>Languages</p>
                                 <p className='p-2 pb-0'>Kotlin</p>
                                 <p className='p-2'>JavaScript</p>
                             </div>
                         </article>
-                        <article className='flex flex-col gap-4'>
+                        <article
+                            className='flex flex-col gap-4' data-aos="zoom-in" data-aos-duration="1200"
+                        >
                             <div className='border border-primaryColor w-52'>
                                 <p className='font-semibold border-b border-primaryColor p-2'>Databases</p>
                                 <p className='p-2 pb-0'>SQL SQLite</p>
@@ -111,7 +127,9 @@ export const HeroSection = () => {
                                 <p className='p-2'>Vercel AdobePr REST</p>
                             </div>
                         </article>
-                        <article className='flex flex-col gap-4'>
+                        <article
+                            className='flex flex-col gap-4' data-aos="zoom-in" data-aos-duration="1500"
+                        >
                             <div className='border border-primaryColor w-52'>
                                 <p className='font-semibold border-b border-primaryColor p-2'>Tools</p>
                                 <p className='p-2 pb-0'>VSCode AndroidST</p>
@@ -133,10 +151,10 @@ export const HeroSection = () => {
 
 
             {/* Contact Section */}
-            <section id='contact' className='flex flex-col mt-24'>
+            <section id='contact' className='flex flex-col mt-24' >
 
                 {/* header */}
-                <header className='flex items-center'>
+                <header header className='flex items-center' data-aos="fade-right" data-aos-duration="2000">
                     <p className='font-medium text-3xl'>
                         <span className='text-secondaryColor'>#</span>
                         contacts
@@ -147,14 +165,14 @@ export const HeroSection = () => {
                 </header>
 
                 {/* main */}
-                <main className='flex justify-between mt-12 w-[1184px]'>
+                <main className='flex justify-between mt-12 w-[1184px]' >
                     {/* info */}
-                    <article className='flex flex-col gap-7 max-w-[515px]'>
-                        <p className='font-medium'>I’m interested in freelance opportunities. However, if you have other request or question, don’t hesitate to contact me</p>
+                    <article article className='flex flex-col gap-7 max-w-[515px]' >
+                        <p className='font-medium' data-aos="fade-right" data-aos-duration="2000">I’m interested in freelance opportunities. However, if you have other request or question, don’t hesitate to contact me</p>
                     </article>
 
                     {/* contact */}
-                    <aside>
+                    <aside data-aos="zoom-out" data-aos-duration="2000">
                         <div className='border border-primaryColor p-4'>
                             <p className='font-semibold mb-4'>Message me here</p>
                             <a href="mailto:mohamed.devmaster@gmail.com" className='hover:underline flex gap-1 items-center mb-2'><iconsUtil.EmailIcon />mohamed.devmaster@gmail.com</a>
