@@ -3,7 +3,7 @@ import React from 'react'
 import * as iconsUtil from '@/utils/icons.util'
 import { BsWhatsapp } from "react-icons/bs";
 // Images
-import HeroPhoto from '@/assets/images/for_home/Image.png'
+import HeroPhoto from '@/assets/images/for_home/rex.gif'
 // Components
 import { ProjectSection } from "./ProjectSection";
 import { AboutSection } from './AboutSection';
@@ -14,7 +14,7 @@ export const HeroSection = () => {
         <main className='relative flex flex-col items-center'>
 
             {/* Info Section */}
-            <section className='flex justify-between items-center mt-20 gap-20'>
+            <section className='flex justify-between items-center mt-36 gap-20'>
                 <span>
                     <p className='font-semibold text-3xl max-w-[580px]'>
                         Mohamed is a <span className='text-secondaryColor'>front-end developer</span> and <span className='text-secondaryColor'>web designer</span>
@@ -23,20 +23,22 @@ export const HeroSection = () => {
                     <button className='font-medium py-2 px-4 border-2 border-primaryColor mt-6 hover:bg-primaryColor/90 hover:text-secondaryColor'>Contact me!!</button>
                 </span>
                 <span className='relative'>
-                    <span className='absolute -z-10'>
+                    <span className='absolute -top-20 -right-20 -z-10'>
                         <iconsUtil.CubeShape />
                     </span>
-                    <img src={HeroPhoto} alt='Hero photo' />
+                    <img src={HeroPhoto} alt='Hero photo' width={500} className='rounded-t-3xl' />
                     <p className='flex items-center p-2 border-2 border-primaryColor font-medium gap-2'>
-                        <iconsUtil.RectangleShape />
+                        <span className='animate-pulse'>
+                            <iconsUtil.RectangleShape />
+                        </span>
                         Currently working on
-                        <span className='font-semibold'>Portfolio</span>
+                        <span className='font-semibold animate-bounce'>Portfolio</span>
                     </p>
                 </span>
             </section>
 
             {/* Wisdom Section */}
-            <section className='flex flex-col items-end mt-20'>
+            <section className='flex flex-col items-end mt-28'>
                 <p className='relative text-2xl font-medium border border-primaryColor p-8'>
                     Every problem has a solution, just code it right
                     <span className='absolute -top-4 left-5 bg-backgroundColor p-1'>
@@ -131,7 +133,7 @@ export const HeroSection = () => {
 
 
             {/* Contact Section */}
-            <section className='flex flex-col mt-24'>
+            <section id='contact' className='flex flex-col mt-24'>
 
                 {/* header */}
                 <header className='flex items-center'>

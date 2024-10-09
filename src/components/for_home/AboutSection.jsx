@@ -1,11 +1,11 @@
 import React from 'react'
 import * as iconsUtil from '@/utils/icons.util'
 // Images
-import HeroPhoto from '@/assets/images/for_home/Image.png'
+import HeroPhoto from '@/assets/images/for_home/image.jpg'
 
 export const AboutSection = () => {
     return (
-        <section className='flex flex-col mt-24'>
+        <section className='flex flex-col mt-24' id='about'>
 
             {/* header */}
             <header className='flex items-center'>
@@ -33,7 +33,7 @@ export const AboutSection = () => {
                     <span className='absolute left-5'>
                         <iconsUtil.SquareDotsIcon />
                     </span>
-                    <img src={HeroPhoto} alt='Personal Photo' className='border-b border-primaryColor' />
+                    <img src={HeroPhoto} width={400} alt='Personal Photo' className='rounded-t-3xl border-b border-primaryColor' />
                     <span className='absolute right-10 bottom-5'>
                         <iconsUtil.SquareDotsIcon />
                     </span>

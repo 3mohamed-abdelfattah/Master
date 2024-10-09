@@ -14,7 +14,7 @@ export const Footer = () => {
                 <span className='flex flex-col gap-5'>
                     <span className='flex font-bold items-center'>
                         <img src={Brand} width={30} />
-                        <p className='text-black font-bold text-lg'>ohamed</p>
+                        <p className='text-primaryColor font-bold text-lg'>ohamed</p>
                     </span>
                     <p>Web designer and front-end developer</p>
                 </span>

@@ -6,6 +6,7 @@
 
 * {
     /* outline: 1px solid #1A5319; */
+    transition: all 0.3s ease;
 }
 
 body {
@@ -24,4 +25,9 @@ html {
 
 ::-webkit-scrollbar {
     width: 0px;
+}
+
+::selection {
+    color: #102C57;
+    background-color: #DAC0A3;
 }
