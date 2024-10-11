@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 
 export const ProjectsPage = () => {
     const styles = {
-        FloatStyle: `absolute left-4 top-0 flex flex-col items-center gap-2`
+        FloatStyle: `absolute left-4 -top-24 xl:top-0 flex flex-col items-center gap-2`
     }
     return (
         <Fragment>

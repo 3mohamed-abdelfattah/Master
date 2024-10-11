@@ -18,11 +18,11 @@ export const HeroSection = () => {
             {/* Info Section */}
             <section className='flex items-center justify-center mt-36 px-5 w-full'>
                 <span>
-                    <p className='font-semibold text-5xl max-w-5xl' data-aos="fade-right" data-aos-duration="1000">
+                    <p className='font-semibold text-3xl sm:text-5xl max-w-5xl' data-aos="fade-right" data-aos-duration="1000">
                         Mohamed is a <span className='text-secondaryColor'>front-end developer</span> and <span className='text-secondaryColor'>web designer</span>
                     </p>
-                    <p className='mt-8 text-2xl max-w-3xl font-light' data-aos="fade-right" data-aos-duration="1300">He crafts responsive websites where technologies meet creativity...</p>
-                    <button className='font-medium py-4 px-5 text-lg border-2 border-primaryColor mt-6 hover:bg-primaryColor/90 hover:text-secondaryColor' data-aos="fade-right" data-aos-duration="1700">Contact me!!</button>
+                    <p className='mt-8 text-lg sm:text-2xl max-w-3xl font-light' data-aos="fade-right" data-aos-duration="1300">He crafts responsive websites where technologies meet creativity...</p>
+                    <button className='font-medium py-4 px-5 sm:text-lg border-2 border-primaryColor mt-6 hover:bg-primaryColor/90 hover:text-secondaryColor' data-aos="fade-right" data-aos-duration="1700">Contact me!!</button>
                 </span>
             </section>
 
@@ -33,13 +33,13 @@ export const HeroSection = () => {
                 data-aos-duration="2000"
                 data-aos-easing="ease-in-sine"
             >
-                <p className='relative text-2xl font-medium border border-primaryColor p-8'>
+                <p className='relative text-lg sm:text-2xl font-medium border border-primaryColor p-5 sm:p-8'>
                     Every problem has a solution, just code it right
                     <span className='absolute -top-4 left-5 bg-backgroundColor p-1'>
                         <iconsUtil.QuoteIcon />
                     </span>
                 </p>
-                <p className='relative text-2xl border border-primaryColor border-t-0 p-4 w-fit'>
+                <p className='relative text-lg sm:text-2xl border border-primaryColor border-t-0 p-4 w-fit'>
                     - Mohamed
                     <span className='absolute -top-4 right-5 bg-backgroundColor p-1'>
                         <iconsUtil.QuoteIcon />
@@ -89,7 +89,7 @@ export const HeroSection = () => {
                         <article
                             data-aos="zoom-in" data-aos-duration="1000"
                         >
-                            <div className='border border-primaryColor w-52'>
+                            <div className='border border-primaryColor sm:w-52'>
                                 <p className='font-semibold border-b border-primaryColor p-2'>Languages</p>
                                 <p className='p-2 pb-0'>Kotlin</p>
                                 <p className='p-2'>JavaScript</p>
@@ -98,12 +98,12 @@ export const HeroSection = () => {
                         <article
                             className='flex xl:flex-col gap-4' data-aos="zoom-in" data-aos-duration="1200"
                         >
-                            <div className='border border-primaryColor w-52'>
+                            <div className='border border-primaryColor sm:w-52'>
                                 <p className='font-semibold border-b border-primaryColor p-2'>Databases</p>
                                 <p className='p-2 pb-0'>SQL SQLite</p>
                                 <p className='p-2'>MongoDB Firebase</p>
                             </div>
-                            <div className='border border-primaryColor w-52'>
+                            <div className='border border-primaryColor sm:w-52'>
                                 <p className='font-semibold border-b border-primaryColor p-2'>Other</p>
                                 <p className='p-2 pb-0'>HTML CSS Postman</p>
                                 <p className='p-2'>Vercel AdobePr REST</p>
@@ -112,13 +112,13 @@ export const HeroSection = () => {
                         <article
                             className='flex xl:flex-col gap-4' data-aos="zoom-in" data-aos-duration="1500"
                         >
-                            <div className='border border-primaryColor w-52'>
+                            <div className='border border-primaryColor sm:w-52'>
                                 <p className='font-semibold border-b border-primaryColor p-2'>Tools</p>
                                 <p className='p-2 pb-0'>VSCode AndroidST</p>
                                 <p className='p-2 pb-0'>Git IntelliJ Vite</p>
                                 <p className='p-2'>Figma Vercel GitHub</p>
                             </div>
-                            <div className='border border-primaryColor w-52'>
+                            <div className='border border-primaryColor sm:w-52'>
                                 <p className='font-semibold border-b border-primaryColor p-2'>Frameworks</p>
                                 <p className='p-2 pb-0'>ReactJS Tailwind</p>
                                 <p className='p-2 pb-0'>React Native</p>

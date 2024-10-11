@@ -18,6 +18,7 @@ export default {
         'lg': '1024px',
         'md': '850px',
         'sm': '640px',
+        'vsm': '450px',
       },
     },
   },

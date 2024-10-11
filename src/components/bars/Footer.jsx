@@ -18,7 +18,7 @@ export const Footer = () => {
                     </span>
                     <p>Web designer and front-end developer</p>
                 </span>
-                <span className='mb-12'>
+                <span className='hidden vsm:block mb-12'>
                     <p className='text-center font-medium text-2xl mb-2'>Media</p>
                     <span className='flex items-center gap-6'>
                         <Link className='hover:scale-125' to='https://github.com/3mohamed-abdelfattah'>

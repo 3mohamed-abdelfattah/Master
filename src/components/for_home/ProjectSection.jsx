@@ -16,7 +16,7 @@ export const ProjectSection = () => {
         <section className='flex flex-col mt-24 px-5'>
 
             {/* header */}
-            <header className='flex justify-between'>
+            <header className='flex justify-between items-center'>
                 <div className='flex justify-between items-center' data-aos="fade-right" data-aos-duration="1000">
                     <p className='font-medium text-3xl'>
                         <span className='text-secondaryColor'>#</span>
@@ -34,7 +34,7 @@ export const ProjectSection = () => {
             {/* main */}
             <main className='flex flex-wrap justify-center gap-4 mt-12'>
                 {/* project 1 */}
-                <article className='max-w-96 border border-primaryColor' data-aos="fade-right" data-aos-duration="2000">
+                <article className='md:max-w-96 border border-primaryColor' data-aos="fade-right" data-aos-duration="2000">
                     <img src={Florenza} alt='Project Photo' />
                     <p className='px-2 border-y border-primaryColor'>HTML CSS JavaScript</p>
                     <span className='flex flex-col gap-4 p-4'>
@@ -51,7 +51,7 @@ export const ProjectSection = () => {
                     </span>
                 </article>
                 {/* project 2 */}
-                <article className='max-w-96 border border-primaryColor' data-aos="fade-right" data-aos-duration="1500">
+                <article className='md:max-w-96 border border-primaryColor' data-aos="fade-right" data-aos-duration="1500">
                     <img src={Clicon} alt='Project Photo' />
                     <p className='px-2 border-y border-primaryColor'>React Vite Tailwind CSS</p>
                     <span className='flex flex-col gap-4 p-4'>
@@ -68,7 +68,7 @@ export const ProjectSection = () => {
                     </span>
                 </article>
                 {/* project 3 */}
-                <article className='max-w-96 border border-primaryColor' data-aos="fade-right" data-aos-duration="1000">
+                <article className='md:max-w-96 border border-primaryColor' data-aos="fade-right" data-aos-duration="1000">
                     <img src={Maiz} alt='Project Photo' />
                     <p className='px-2 border-y border-primaryColor'>React Vite Tailwind CSS</p>
                     <span className='flex flex-col gap-4 p-4'>
@@ -85,7 +85,7 @@ export const ProjectSection = () => {
                     </span>
                 </article>
             </main>
-            <span className='absolute right-0 top-[1100px] scale-x-[-1] -z-10'>
+            <span className='hidden vsm:absolute right-0 top-[1100px] scale-x-[-1] -z-10'>
                 <iconsUtil.BigRectangleIcon />
             </span>
         </section>

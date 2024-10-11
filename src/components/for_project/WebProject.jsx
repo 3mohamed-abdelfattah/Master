@@ -25,13 +25,13 @@ export const WebProject = () => {
 
             <section className='flex flex-col mt-16'>
                 {/* header */}
-                <header className='px-28 w-full'>
-                    <p className='font-semibold text-3xl mb-3' data-aos="fade-right" data-aos-duration="1000">
+                <header className='flex flex-col px-20 md:px-36 w-full'>
+                    <p className='font-semibold text-xl vsm:text-3xl mb-3' data-aos="fade-right" data-aos-duration="1000">
                         <span className='text-secondaryColor pr-1'>/</span>
                         Projects
                     </p>
-                    <p data-aos="fade-right" data-aos-duration="1500">List of my projects</p>
-                    <p className='mt-10 text-2xl font-medium' data-aos="fade-right" data-aos-duration="2000">
+                    <p className='text-sm vsm:text-base' data-aos="fade-right" data-aos-duration="1500">List of my projects</p>
+                    <p className=' mt-2 vsm:mt-10 vsm:text-2xl font-medium' data-aos="fade-right" data-aos-duration="2000">
                         <span className='text-secondaryColor'># </span>
                         Web-Projects
                     </p>
@@ -41,7 +41,7 @@ export const WebProject = () => {
                 <main className='flex flex-wrap justify-center gap-5 mt-6 px-5'>
 
                     {/* project 1 */}
-                    <article className='max-w-96 border border-primaryColor' data-aos="fade-right" data-aos-duration="2000">
+                    <article className='md:max-w-96 border border-primaryColor' data-aos="fade-right" data-aos-duration="2000">
                         <img src={Florenza} alt='Project Photo' />
                         <p className='px-2 border-y border-primaryColor'>HTML CSS JavaScript</p>
                         <span className='flex flex-col gap-4 p-4'>
@@ -59,7 +59,7 @@ export const WebProject = () => {
                     </article>
 
                     {/* project 2 */}
-                    <article className='max-w-96 border border-primaryColor' data-aos="fade-right" data-aos-duration="1500">
+                    <article className='md:max-w-96 border border-primaryColor' data-aos="fade-right" data-aos-duration="1500">
                         <img src={Clicon} alt='Project Photo' />
                         <p className='px-2 border-y border-primaryColor'>React Vite Tailwind CSS</p>
                         <span className='flex flex-col gap-4 p-4'>
@@ -77,7 +77,7 @@ export const WebProject = () => {
                     </article>
 
                     {/* project 3 */}
-                    <article className='max-w-96 border border-primaryColor' data-aos="fade-right" data-aos-duration="1000">
+                    <article className='md:max-w-96 border border-primaryColor' data-aos="fade-right" data-aos-duration="1000">
                         <img src={Maiz} alt='Project Photo' />
                         <p className='px-2 border-y border-primaryColor'>React Vite Tailwind CSS</p>
                         <span className='flex flex-col gap-4 p-4'>
@@ -95,7 +95,7 @@ export const WebProject = () => {
                     </article>
 
                     {/* project 4 */}
-                    <article className='max-w-96 border border-primaryColor' data-aos="fade-left" data-aos-duration="1000" data-aos-offset="250">
+                    <article className='md:max-w-96 border border-primaryColor' data-aos="fade-left" data-aos-duration="1000" data-aos-offset="250">
                         <img src={Rivo} alt='Project Photo' />
                         <p className='px-2 border-y border-primaryColor'>React Vite Tailwind CSS</p>
                         <span className='flex flex-col gap-4 p-4'>
@@ -113,7 +113,7 @@ export const WebProject = () => {
                     </article>
 
                     {/* project 5 */}
-                    <article className='max-w-96 border border-primaryColor' data-aos="fade-left" data-aos-duration="1500" data-aos-offset="250">
+                    <article className='md:max-w-96 border border-primaryColor' data-aos="fade-left" data-aos-duration="1500" data-aos-offset="250">
                         <img src={XnO} alt='Project Photo' />
                         <p className='px-2 border-y border-primaryColor'>React Vite Tailwind CSS</p>
                         <span className='flex flex-col gap-4 p-4'>
@@ -131,7 +131,7 @@ export const WebProject = () => {
                     </article>
 
                     {/* project 6 */}
-                    <article className='max-w-96 border border-primaryColor' data-aos="fade-left" data-aos-duration="2000" data-aos-offset="250">
+                    <article className='md:max-w-96 border border-primaryColor' data-aos="fade-left" data-aos-duration="2000" data-aos-offset="250">
                         <img src={Movie} alt='Project Photo' />
                         <p className='px-2 border-y border-primaryColor'>React Vite Tailwind CSS</p>
                         <span className='flex flex-col gap-4 p-4'>
@@ -149,7 +149,7 @@ export const WebProject = () => {
                     </article>
 
                     {/* project 7 */}
-                    <article className='max-w-96 border border-primaryColor' data-aos="fade-right" data-aos-duration="2000" data-aos-offset="450">
+                    <article className='md:max-w-96 border border-primaryColor' data-aos="fade-right" data-aos-duration="2000" data-aos-offset="450">
                         <img src={ToDo} alt='Project Photo' />
                         <p className='px-2 border-y border-primaryColor'>React Vite Tailwind CSS</p>
                         <span className='flex flex-col gap-4 p-4'>
@@ -167,7 +167,7 @@ export const WebProject = () => {
                     </article>
 
                     {/* project 8 */}
-                    <article className='max-w-96 border border-primaryColor' data-aos="fade-right" data-aos-duration="1500" data-aos-offset="450">
+                    <article className='md:max-w-96 border border-primaryColor' data-aos="fade-right" data-aos-duration="1500" data-aos-offset="450">
                         <img src={Weather} alt='Project Photo' />
                         <p className='px-2 border-y border-primaryColor'>HTML CSS JavaScript</p>
                         <span className='flex flex-col gap-4 p-4'>
@@ -185,7 +185,7 @@ export const WebProject = () => {
                     </article>
 
                     {/* project 9 */}
-                    <article className='max-w-96 border border-primaryColor' data-aos="fade-right" data-aos-duration="1000" data-aos-offset="450">
+                    <article className='md:max-w-96 border border-primaryColor' data-aos="fade-right" data-aos-duration="1000" data-aos-offset="450">
                         <img src={CloneGPT} alt='Project Photo' />
                         <p className='px-2 border-y border-primaryColor'>React Vite Tailwind CSS</p>
                         <span className='flex flex-col gap-4 p-4'>
@@ -203,7 +203,7 @@ export const WebProject = () => {
                     </article>
 
                     {/* project 10 */}
-                    <article className='max-w-96 border border-primaryColor' data-aos="fade-left" data-aos-duration="1000" data-aos-offset="450">
+                    <article className='md:max-w-96 border border-primaryColor' data-aos="fade-left" data-aos-duration="1000" data-aos-offset="450">
                         <img src={EgyptID} alt='Project Photo' />
                         <p className='px-2 border-y border-primaryColor'>React Vite Tailwind CSS</p>
                         <span className='flex flex-col gap-4 p-4'>
@@ -221,16 +221,16 @@ export const WebProject = () => {
                     </article>
 
                     {/* Float Shapes */}
-                    <span className='absolute left-0 top-[350px] -z-10'>
+                    <span className='hidden vsm:absolute left-0 top-[350px] -z-10'>
                         <RectangleDotsIcon />
                     </span>
-                    <span className='absolute right-0 top-[1250px] -z-10'>
+                    <span className='hidden vsm:absolute right-0 top-[1250px] -z-10'>
                         <SquareDotsIcon />
                     </span>
-                    <span className='absolute right-0 top-[150px] scale-x-[-1] -z-10'>
+                    <span className='hidden vsm:absolute right-0 top-[150px] scale-x-[-1] -z-10'>
                         <BigRectangleIcon />
                     </span>
-                    <span className='absolute left-0 top-[1500px] -z-10'>
+                    <span className='hidden vsm:absolute left-0 top-[1500px] -z-10'>
                         <BigRectangleIcon />
                     </span>
 

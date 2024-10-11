@@ -13,8 +13,8 @@ export const MobileProject = () => {
 
             <section className='flex flex-col mt-16'>
                 {/* header */}
-                <header className='px-28 w-full' data-aos="fade-right" data-aos-duration="1000" data-aos-offset="450">
-                    <p className='mt-10 text-2xl font-medium'>
+                <header className='flex flex-col px-20 md:px-36 w-full' data-aos="fade-right" data-aos-duration="1000" data-aos-offset="450">
+                    <p className='vsm:mt-10 text-xl vsm:text-3xl font-medium'>
                         <span className='text-secondaryColor'># </span>
                         Mobile-Projects
                     </p>
@@ -24,9 +24,9 @@ export const MobileProject = () => {
                 <main className='flex flex-wrap justify-center gap-4 mt-6'>
 
                     {/* project 1 */}
-                    <article className='max-w-96 border border-primaryColor h-fit' data-aos="fade-right" data-aos-duration="2000" data-aos-offset="600">
+                    <article className='md:max-w-96 border border-primaryColor h-fit m-2 w-full' data-aos="fade-right" data-aos-duration="2000" data-aos-offset="600">
                         <p className='px-2 border-b border-primaryColor'>Kotlin UI/UX Jetpack-Compose Ktor</p>
-                        <span className='flex flex-col gap-4 p-4'>
+                        <span className='flex flex-col gap-4 p-2 vsm:p-4'>
                             <p className='font-medium text-2xl'>Little Lemon</p>
                             <p>Full-Scale Local Brand Restaurant App built under the supervision of Meta.</p>
                             <Link to='https://github.com/3mohamed-abdelfattah/Little-Limon'>
@@ -36,9 +36,9 @@ export const MobileProject = () => {
                     </article>
 
                     {/* project 2 */}
-                    <article className='max-w-96 border border-primaryColor h-fit' data-aos="fade-right" data-aos-duration="1500" data-aos-offset="600">
+                    <article className='md:max-w-96 border border-primaryColor h-fit m-2' data-aos="fade-right" data-aos-duration="1500" data-aos-offset="600">
                         <p className='px-2 border-b border-primaryColor'>Kotlin XML</p>
-                        <span className='flex flex-col gap-4 p-4'>
+                        <span className='flex flex-col gap-4 p-2 vsm:p-4'>
                             <p className='font-medium text-2xl'>FitWave</p>
                             <p>Fitness App for tracking workouts, monitoring progress, and staying motivated.</p>
                             <Link to='https://github.com/3mohamed-abdelfattah/FitWave'>
@@ -48,9 +48,9 @@ export const MobileProject = () => {
                     </article>
 
                     {/* project 3 */}
-                    <article className='max-w-96 border border-primaryColor h-fit' data-aos="fade-right" data-aos-duration="1000" data-aos-offset="600">
+                    <article className='md:max-w-96 border border-primaryColor h-fit m-2' data-aos="fade-right" data-aos-duration="1000" data-aos-offset="600">
                         <p className='px-2 border-b border-primaryColor'>Kotlin XML Firebase</p>
-                        <span className='flex flex-col gap-4 p-4'>
+                        <span className='flex flex-col gap-4 p-2 vsm:p-4'>
                             <p className='font-medium text-2xl'>BrandStep</p>
                             <p>eCommerce app for purchasing the latest and most popular branded shoes and clothing.</p>
                             <Link to='https://github.com/3mohamed-abdelfattah/BrandStep'>
@@ -60,9 +60,9 @@ export const MobileProject = () => {
                     </article>
 
                     {/* project 4 */}
-                    <article className='max-w-96 border border-primaryColor h-fit' data-aos="fade-left" data-aos-duration="1000" data-aos-offset="600">
+                    <article className='md:max-w-96 border border-primaryColor h-fit m-2' data-aos="fade-left" data-aos-duration="1000" data-aos-offset="100">
                         <p className='px-2 border-b border-primaryColor'>Kotlin MVVM Compose-Multiplatform</p>
-                        <span className='flex flex-col gap-4 p-4'>
+                        <span className='flex flex-col gap-4 p-2 vsm:p-4'>
                             <p className='font-medium text-2xl'>ToDoWiz</p>
                             <p>Ultimate task management app for tracking tasks, organizing your schedule, and staying productive.</p>
                             <Link to='https://github.com/3mohamed-abdelfattah/ToDoWiz'>
@@ -72,9 +72,9 @@ export const MobileProject = () => {
                     </article>
 
                     {/* project 5 */}
-                    <article className='max-w-96 border border-primaryColor h-fit' data-aos="fade-left" data-aos-duration="1500" data-aos-offset="600">
-                        <p className='px-2 border-b border-primaryColor'>Flutter</p>
-                        <span className='flex flex-col gap-4 p-4'>
+                    <article className='md:max-w-96 border border-primaryColor h-fit m-2' data-aos="fade-left" data-aos-duration="1500" data-aos-offset="100">
+                        <p className='vsm px-2 border-b border-primaryColor'>Flutter</p>
+                        <span className='flex flex-col gap-4 p-2 vsm:p-4'>
                             <p className='font-medium text-2xl'>Pizza-Slice</p>
                             <p>Simple Restaurant App allow users to browse through a restaurant's menu, view details of dish, place orders.</p>
                             <Link to='https://github.com/3mohamed-abdelfattah/Pizza-Slice'>
@@ -84,10 +84,10 @@ export const MobileProject = () => {
                     </article>
 
                     {/* Float Shapes */}
-                    <span className='absolute left-0 top-[550px] -z-10'>
+                    <span className='hidden vsm:absolute left-0 top-[550px] -z-10'>
                         <RectangleDotsIcon />
                     </span>
-                    <span className='absolute right-0 top-[150px] scale-x-[-1] -z-10'>
+                    <span className='hidden vsm:absolute right-0 top-[150px] scale-x-[-1] -z-10'>
                         <BigRectangleIcon />
                     </span>
 
