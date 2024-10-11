@@ -25,7 +25,7 @@ export const WebProject = () => {
 
             <section className='flex flex-col mt-16'>
                 {/* header */}
-                <header className='mx-44'>
+                <header className='px-28 w-full'>
                     <p className='font-semibold text-3xl mb-3' data-aos="fade-right" data-aos-duration="1000">
                         <span className='text-secondaryColor pr-1'>/</span>
                         Projects
@@ -38,7 +38,7 @@ export const WebProject = () => {
                 </header>
 
                 {/* main */}
-                <main className='flex flex-wrap justify-center gap-5 mt-6'>
+                <main className='flex flex-wrap justify-center gap-5 mt-6 px-5'>
 
                     {/* project 1 */}
                     <article className='max-w-96 border border-primaryColor' data-aos="fade-right" data-aos-duration="2000">
@@ -221,16 +221,16 @@ export const WebProject = () => {
                     </article>
 
                     {/* Float Shapes */}
-                    <span className='absolute left-0 top-[350px]'>
+                    <span className='absolute left-0 top-[350px] -z-10'>
                         <RectangleDotsIcon />
                     </span>
-                    <span className='absolute right-0 top-[1250px]'>
+                    <span className='absolute right-0 top-[1250px] -z-10'>
                         <SquareDotsIcon />
                     </span>
-                    <span className='absolute right-0 top-[150px] scale-x-[-1]'>
+                    <span className='absolute right-0 top-[150px] scale-x-[-1] -z-10'>
                         <BigRectangleIcon />
                     </span>
-                    <span className='absolute left-0 top-[1500px]'>
+                    <span className='absolute left-0 top-[1500px] -z-10'>
                         <BigRectangleIcon />
                     </span>
 

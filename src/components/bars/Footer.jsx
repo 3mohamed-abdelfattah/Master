@@ -9,7 +9,7 @@ import Brand from '@/assets/images/brand.png'
 
 export const Footer = () => {
     return (
-        <footer className='border-t border-primaryColor py-8 mt-24'>
+        <footer className='border-t border-primaryColor px-2 py-8 mt-24'>
             <section className='flex justify-around'>
                 <span className='flex flex-col gap-5'>
                     <span className='flex font-bold items-center'>

@@ -13,7 +13,7 @@ export const MobileProject = () => {
 
             <section className='flex flex-col mt-16'>
                 {/* header */}
-                <header className='mx-44' data-aos="fade-right" data-aos-duration="1000" data-aos-offset="450">
+                <header className='px-28 w-full' data-aos="fade-right" data-aos-duration="1000" data-aos-offset="450">
                     <p className='mt-10 text-2xl font-medium'>
                         <span className='text-secondaryColor'># </span>
                         Mobile-Projects
@@ -84,10 +84,10 @@ export const MobileProject = () => {
                     </article>
 
                     {/* Float Shapes */}
-                    <span className='absolute left-0 top-[550px]'>
+                    <span className='absolute left-0 top-[550px] -z-10'>
                         <RectangleDotsIcon />
                     </span>
-                    <span className='absolute right-0 top-[150px] scale-x-[-1]'>
+                    <span className='absolute right-0 top-[150px] scale-x-[-1] -z-10'>
                         <BigRectangleIcon />
                     </span>
 

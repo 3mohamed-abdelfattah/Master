@@ -14,9 +14,9 @@ export default {
       },
       screens: {
         '2xl': '1536px',
-        'xl': '1280px',
+        'xl': '1150px',
         'lg': '1024px',
-        'md': '768px',
+        'md': '850px',
         'sm': '640px',
       },
     },

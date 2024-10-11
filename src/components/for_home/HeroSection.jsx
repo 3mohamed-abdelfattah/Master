@@ -2,8 +2,6 @@ import React from 'react'
 // Icons
 import * as iconsUtil from '@/utils/icons.util'
 import { BsWhatsapp } from "react-icons/bs";
-// Images
-import HeroPhoto from '../../assets/images/for_home/rex.gif'
 // Components
 import { ProjectSection } from "./ProjectSection";
 import { AboutSection } from './AboutSection';
@@ -18,35 +16,19 @@ export const HeroSection = () => {
         <main className='relative flex flex-col items-center'>
 
             {/* Info Section */}
-            <section className='flex justify-between items-center mt-36 gap-20'>
+            <section className='flex items-center justify-center mt-36 px-5 w-full'>
                 <span>
-                    <p className='font-semibold text-4xl max-w-[580px]' data-aos="fade-right" data-aos-duration="1000">
+                    <p className='font-semibold text-5xl max-w-5xl' data-aos="fade-right" data-aos-duration="1000">
                         Mohamed is a <span className='text-secondaryColor'>front-end developer</span> and <span className='text-secondaryColor'>web designer</span>
                     </p>
-                    <p className='leading-6 mt-8 text-xl max-w-[463px]' data-aos="fade-right" data-aos-duration="1300">He crafts responsive websites where technologies meet creativity...</p>
-                    <button className='font-medium py-2 px-4 border-2 border-primaryColor mt-6 hover:bg-primaryColor/90 hover:text-secondaryColor' data-aos="fade-right" data-aos-duration="1700">Contact me!!</button>
-                </span>
-                <span className='relative' data-aos="fade-left" data-aos-duration="2000">
-                    <span className='absolute -top-16 -z-10'>
-                        <iconsUtil.CubeShape />
-                    </span>
-                    <div className='relative'>
-                        <div className='absolute w-full h-full bg-black/10 rounded-t-3xl'></div>
-                        <img src={HeroPhoto} alt='Hero photo' width={480} className='rounded-t-3xl' />
-                    </div>
-                    <p className='flex items-center p-2 border-2 border-primaryColor font-medium gap-2 z-40'>
-                        <span className='animate-pulse'>
-                            <iconsUtil.RectangleShape />
-                        </span>
-                        Currently working on
-                        <span className='font-semibold animate-bounce'>Portfolio</span>
-                    </p>
+                    <p className='mt-8 text-2xl max-w-3xl font-light' data-aos="fade-right" data-aos-duration="1300">He crafts responsive websites where technologies meet creativity...</p>
+                    <button className='font-medium py-4 px-5 text-lg border-2 border-primaryColor mt-6 hover:bg-primaryColor/90 hover:text-secondaryColor' data-aos="fade-right" data-aos-duration="1700">Contact me!!</button>
                 </span>
             </section>
 
             {/* Wisdom Section */}
             <section
-                className='flex flex-col items-end mt-28' data-aos="fade-right"
+                className='flex flex-col items-end mt-28 px-5' data-aos="fade-right"
                 data-aos-offset="100"
                 data-aos-duration="2000"
                 data-aos-easing="ease-in-sine"
@@ -68,7 +50,7 @@ export const HeroSection = () => {
             <ProjectSection />
 
             {/* Skills Section */}
-            <section className='flex flex-col mt-24'>
+            <section className='flex flex-col px-5 mt-24'>
 
                 {/* header */}
                 <header className='flex items-center' data-aos="fade-right" data-aos-duration="1000">
@@ -76,34 +58,34 @@ export const HeroSection = () => {
                         <span className='text-secondaryColor'>#</span>
                         skills
                     </p>
-                    <span className='pl-4'>
+                    <span className='hidden md:block pl-4'>
                         <iconsUtil.LineHIcon />
                     </span>
                 </header>
 
                 {/* main */}
-                <main className='flex justify-between mt-12 w-[1184px]'>
+                <main className='flex justify-between mt-12 xl:w-[1150px]'>
                     {/* icons */}
-                    <section className='w-96 relative'>
-                        <span className='absolute top-10 left-0'>
+                    <section className='hidden md:flex w-96 relative'>
+                        <span className='absolute top-10 left-0 -z-10'>
                             <iconsUtil.SquareDotsIcon />
                         </span>
-                        <span className='absolute top-1/3 left-1/2'>
+                        <span className='hidden xl:absolute top-1/3 left-1/2 -z-10'>
                             <iconsUtil.SquareDotsIcon />
                         </span>
-                        <span className='absolute bottom-0 left-5'>
+                        <span className='absolute bottom-0 left-5 -z-10'>
                             <iconsUtil.CubeShape />
                         </span>
-                        <span className='absolute top-0 right-5'>
+                        <span className='absolute top-0 right-5 -z-10'>
                             <iconsUtil.RectangleIcon />
                         </span>
-                        <span className='absolute bottom-10 right-0'>
+                        <span className='hidden xl:absolute bottom-10 right-0 -z-10'>
                             <iconsUtil.SmallRectangleIcon />
                         </span>
                     </section>
 
                     {/* language */}
-                    <section className='flex gap-4'>
+                    <section className='flex flex-wrap-reverse gap-4'>
                         <article
                             data-aos="zoom-in" data-aos-duration="1000"
                         >
@@ -114,7 +96,7 @@ export const HeroSection = () => {
                             </div>
                         </article>
                         <article
-                            className='flex flex-col gap-4' data-aos="zoom-in" data-aos-duration="1200"
+                            className='flex xl:flex-col gap-4' data-aos="zoom-in" data-aos-duration="1200"
                         >
                             <div className='border border-primaryColor w-52'>
                                 <p className='font-semibold border-b border-primaryColor p-2'>Databases</p>
@@ -128,7 +110,7 @@ export const HeroSection = () => {
                             </div>
                         </article>
                         <article
-                            className='flex flex-col gap-4' data-aos="zoom-in" data-aos-duration="1500"
+                            className='flex xl:flex-col gap-4' data-aos="zoom-in" data-aos-duration="1500"
                         >
                             <div className='border border-primaryColor w-52'>
                                 <p className='font-semibold border-b border-primaryColor p-2'>Tools</p>
@@ -151,7 +133,7 @@ export const HeroSection = () => {
 
 
             {/* Contact Section */}
-            <section id='contact' className='flex flex-col mt-24' >
+            <section id='contact' className='flex flex-col px-5 mt-24' >
 
                 {/* header */}
                 <header header className='flex items-center' data-aos="fade-right" data-aos-duration="2000">
@@ -159,15 +141,15 @@ export const HeroSection = () => {
                         <span className='text-secondaryColor'>#</span>
                         contacts
                     </p>
-                    <span className='pl-4'>
+                    <span className='hidden md:block pl-4'>
                         <iconsUtil.LineHIcon />
                     </span>
                 </header>
 
                 {/* main */}
-                <main className='flex justify-between mt-12 w-[1184px]' >
+                <main className='flex flex-col xl:flex-row gap-10 justify-between mt-12 xl:w-[1150px]' >
                     {/* info */}
-                    <article article className='flex flex-col gap-7 max-w-[515px]' >
+                    <article article className='flex flex-col gap-7 max-w-[515px] w-full' >
                         <p className='font-medium' data-aos="fade-right" data-aos-duration="2000">I’m interested in freelance opportunities. However, if you have other request or question, don’t hesitate to contact me</p>
                     </article>
 
@@ -180,7 +162,7 @@ export const HeroSection = () => {
                         </div>
                     </aside>
                 </main>
-                <span className='absolute left-0 top-[2550px]'>
+                <span className='hidden md:absolute left-0 top-[2550px] -z-10'>
                     <iconsUtil.RectangleDotsIcon />
                 </span>
             </section>

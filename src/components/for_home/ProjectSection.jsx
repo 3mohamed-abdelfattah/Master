@@ -13,7 +13,7 @@ import 'aos/dist/aos.css';
 export const ProjectSection = () => {
     AOS.init();
     return (
-        <section className='flex flex-col mt-24'>
+        <section className='flex flex-col mt-24 px-5'>
 
             {/* header */}
             <header className='flex justify-between'>
@@ -22,7 +22,7 @@ export const ProjectSection = () => {
                         <span className='text-secondaryColor'>#</span>
                         projects
                     </p>
-                    <span className='pl-4'>
+                    <span className='hidden md:block pl-4'>
                         <iconsUtil.LineHIcon />
                     </span>
                 </div>
@@ -32,7 +32,7 @@ export const ProjectSection = () => {
             </header>
 
             {/* main */}
-            <main className='flex gap-4 mt-12'>
+            <main className='flex flex-wrap justify-center gap-4 mt-12'>
                 {/* project 1 */}
                 <article className='max-w-96 border border-primaryColor' data-aos="fade-right" data-aos-duration="2000">
                     <img src={Florenza} alt='Project Photo' />
@@ -85,7 +85,7 @@ export const ProjectSection = () => {
                     </span>
                 </article>
             </main>
-            <span className='absolute right-0 top-[1100px] scale-x-[-1]'>
+            <span className='absolute right-0 top-[1100px] scale-x-[-1] -z-10'>
                 <iconsUtil.BigRectangleIcon />
             </span>
         </section>
