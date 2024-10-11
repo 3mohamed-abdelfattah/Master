@@ -1,6 +1,6 @@
 # Mohamed Mohamed - Frontend Developer Portfolio
 
-Welcome to the repository of my personal portfolio.  
+Welcome to my portfolio.  
 I am **Mohamed Mohamed**, a Frontend Developer and Android Developer, currently working as a freelancer on Upwork. I specialize in creating high-quality, responsive web applications and mobile apps, focusing on providing an optimal user experience and maintaining clean, organized code.
 
 <div  align="center">

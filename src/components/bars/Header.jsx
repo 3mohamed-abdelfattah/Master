@@ -16,7 +16,7 @@ export const Header = () => {
             <main className='flex justify-between px-10 md:px-32 items-center pt-8 pb-2'>
                 <span className='flex font-bold items-center'>
                     <img src={Brand} width={30} alt="Brand Logo" />
-                    <p className='text-primaryColor font-bold text-lg'>Mohamed</p>
+                    <p className='text-primaryColor font-bold text-lg'>ohamed</p>
                 </span>
 
                 {/* Burger Icon for mobile */}
