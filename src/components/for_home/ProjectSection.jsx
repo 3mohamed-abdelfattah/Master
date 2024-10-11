@@ -18,7 +18,7 @@ export const ProjectSection = () => {
             {/* header */}
             <header className='flex justify-between items-center'>
                 <div className='flex justify-between items-center' data-aos="fade-right" data-aos-duration="1000">
-                    <p className='font-medium text-3xl'>
+                    <p className='font-medium text-2xl tiny:text-3xl'>
                         <span className='text-secondaryColor'>#</span>
                         projects
                     </p>

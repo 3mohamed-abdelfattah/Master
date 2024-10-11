@@ -13,7 +13,7 @@ export const MobileProject = () => {
 
             <section className='flex flex-col mt-16'>
                 {/* header */}
-                <header className='flex flex-col px-20 md:px-36 w-full' data-aos="fade-right" data-aos-duration="1000" data-aos-offset="450">
+                <header className='flex flex-col px-5 vsm:px-20 md:px-36 w-full' data-aos="fade-right" data-aos-duration="1000" data-aos-offset="450">
                     <p className='vsm:mt-10 text-xl vsm:text-3xl font-medium'>
                         <span className='text-secondaryColor'># </span>
                         Mobile-Projects

@@ -133,11 +133,11 @@ export const HeroSection = () => {
 
 
             {/* Contact Section */}
-            <section id='contact' className='flex flex-col px-5 mt-24' >
+            <section id='contact' className='flex flex-col p-5 mt-24' >
 
                 {/* header */}
                 <header header className='flex items-center' data-aos="fade-right" data-aos-duration="2000">
-                    <p className='font-medium text-3xl'>
+                    <p className='font-medium text-3xl pl-3 tiny:pl-0'>
                         <span className='text-secondaryColor'>#</span>
                         contacts
                     </p>
@@ -150,7 +150,7 @@ export const HeroSection = () => {
                 <main className='flex flex-col xl:flex-row gap-10 justify-between mt-12 xl:w-[1150px]' >
                     {/* info */}
                     <article article className='flex flex-col gap-7 max-w-[515px] w-full' >
-                        <p className='font-medium' data-aos="fade-right" data-aos-duration="2000">I’m interested in freelance opportunities. However, if you have other request or question, don’t hesitate to contact me</p>
+                        <p className='font-medium pl-3 tiny:pl-0' data-aos="fade-right" data-aos-duration="2000">I’m interested in freelance opportunities. However, if you have other request or question, don’t hesitate to contact me</p>
                     </article>
 
                     {/* contact */}

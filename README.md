@@ -3,6 +3,11 @@
 Welcome to the repository of my personal portfolio.  
 I am **Mohamed Mohamed**, a Frontend Developer and Android Developer, currently working as a freelancer on Upwork. I specialize in creating high-quality, responsive web applications and mobile apps, focusing on providing an optimal user experience and maintaining clean, organized code.
 
+<div  align="center">
+  
+![coins_10464509](https://github.com/user-attachments/assets/788524cd-f280-4d00-88d4-52c607063f8b)
+</div>
+
 ## About Me
 As a dedicated freelancer on **Upwork**, I strive to deliver projects that exceed client expectations by focusing on usability, design, and efficiency. My experience spans across various projects, ensuring solutions that are both functional and aesthetically pleasing.
 

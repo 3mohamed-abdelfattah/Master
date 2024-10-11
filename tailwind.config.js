@@ -19,6 +19,7 @@ export default {
         'md': '850px',
         'sm': '640px',
         'vsm': '450px',
+        'tiny': '350px',
       },
     },
   },
