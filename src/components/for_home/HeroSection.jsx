@@ -9,6 +9,7 @@ import { AboutSection } from './AboutSection';
 import { motion } from "framer-motion"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { TypeAnimation } from 'react-type-animation';
 
 export const HeroSection = () => {
     AOS.init();
@@ -21,7 +22,27 @@ export const HeroSection = () => {
                     <p className='font-semibold text-3xl sm:text-5xl max-w-5xl' data-aos="fade-right" data-aos-duration="1000">
                         Mohamed is a <span className='text-secondaryColor'>front-end developer</span> and <span className='text-secondaryColor'>web designer</span>
                     </p>
-                    <p className='mt-8 text-lg sm:text-2xl max-w-3xl font-light' data-aos="fade-right" data-aos-duration="1300">He crafts responsive websites where technologies meet creativity...</p>
+                    <p className='min-h-16 mt-8 text-lg sm:text-2xl max-w-3xl font-light' data-aos="fade-right" data-aos-duration="1300">
+                        <TypeAnimation
+                            sequence={[
+                                'He crafts responsive websites where technologies meet creativity...',
+                                2000,
+                                'Delivering unique web experiences with seamless functionality and design.',
+                                2000,
+                                'Focused on performance, accessibility, and pixel-perfect execution.',
+                                2000,
+                                'Turning ideas into interactive digital solutions that inspire.',
+                                2000,
+                                'Your vision, brought to life through clean code and modern design.',
+                                2000,
+                            ]}
+                            wrapper="span"
+                            cursor={true}
+                            repeat={Infinity}
+                            speed={60}
+                            deletionSpeed={80}
+                        />
+                    </p>
                     <button className='font-medium py-4 px-5 sm:text-lg border-2 border-primaryColor mt-6 hover:bg-primaryColor/90 hover:text-secondaryColor' data-aos="fade-right" data-aos-duration="1700">Contact me!!</button>
                 </span>
             </section>
