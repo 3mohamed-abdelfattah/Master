@@ -91,17 +91,9 @@ To run this project locally:
                 └── image.jpg
             └── 📁for_projects
                 └── 📁mobile
+                    └── mobilePhoto.png
                 └── 📁web
-                    └── clicon.png
-                    └── florenza.png
-                    └── gpt.png
-                    └── id.png
-                    └── maiz.png
-                    └── movie.png
-                    └── rivo.png
-                    └── todo.png
-                    └── weather.png
-                    └── xno.png
+                    └── webPhoto.png
             └── brand.png
             └── lightBrand.png
     └── 📁components
@@ -137,5 +129,6 @@ To run this project locally:
 This portfolio is a personal project that reflects my journey as a developer. While I’m not accepting external contributions at the moment, I’m always open to feedback, suggestions, or new ideas! Feel free to reach out if you have any!
 
 ---
-
-Thank you for checking out my portfolio! Stay tuned for more updates! 😊
+<div align='center'>
+  Thank you for checking out my portfolio! Stay tuned for more updates! 😊
+</div>
