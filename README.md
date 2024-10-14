@@ -20,12 +20,12 @@ Welcome to my personal portfolio website! This project showcases my skills, expe
 
  <table align="center">
   <tr>
-    <td><img width='620px' src="https://github.com/user-attachments/assets/e10a7b22-bc4e-47cd-a866-a1d77acb805f" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
-    <td><img width='620px' src="https://github.com/user-attachments/assets/d3825858-6c18-421f-b06a-e7dcf5c3b34d" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
+    <td><img width='750px' src="https://github.com/user-attachments/assets/e10a7b22-bc4e-47cd-a866-a1d77acb805f" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
+    <td><img width='750px' src="https://github.com/user-attachments/assets/d3825858-6c18-421f-b06a-e7dcf5c3b34d" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
   </tr>
   <tr>
-    <td><img width='620px' src="https://github.com/user-attachments/assets/0f1c902d-8886-413f-9f59-c4abd8464789" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
-    <td><img width='620px' src="https://github.com/user-attachments/assets/a7dacfbf-76d2-4e0d-9ea4-f43bda9de726" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
+    <td><img width='750px' src="https://github.com/user-attachments/assets/0f1c902d-8886-413f-9f59-c4abd8464789" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
+    <td><img width='750px' src="https://github.com/user-attachments/assets/a7dacfbf-76d2-4e0d-9ea4-f43bda9de726" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
   </tr>
   <tr>
     <td><img width='450px' src="https://github.com/user-attachments/assets/122bf1d2-72ab-4652-a907-02b8a5da5958" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
