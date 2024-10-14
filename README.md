@@ -33,7 +33,7 @@ Welcome to my personal portfolio website! This project showcases my skills, expe
   </tr>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/87d83298-d4aa-450b-a2ee-10ea997b9d76" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
-    <td><img width='320px' src="https://github.com/user-attachments/assets/97ff1d24-429e-4496-b43b-ddfc11331f45" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
+    <td><img width='270px' src="https://github.com/user-attachments/assets/97ff1d24-429e-4496-b43b-ddfc11331f45" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
   </tr>
 </table>
 
