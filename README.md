@@ -1,4 +1,4 @@
-# ⭐️ The Master
+# 🥇 The Master
 
 Welcome to my personal portfolio website! This project showcases my skills, expertise, and latest work as a front-end developer. It’s continuously being updated and enhanced with new features and improvements to reflect my growing knowledge and experience. 💡
 
