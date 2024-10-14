@@ -17,12 +17,12 @@ export const HeroSection = () => {
         <main className='relative flex flex-col items-center'>
 
             {/* Info Section */}
-            <section className='flex items-center justify-center mt-36 px-5 w-full'>
+            <section className='flex items-center justify-center mt-16 vsm:mt-36 px-5 w-full'>
                 <span>
                     <p className='font-semibold text-3xl sm:text-5xl max-w-5xl' data-aos="fade-right" data-aos-duration="1000">
                         Mohamed is a <span className='text-secondaryColor'>front-end developer</span> and <span className='text-secondaryColor'>web designer</span>
                     </p>
-                    <p className='min-h-16 mt-8 text-lg sm:text-2xl max-w-3xl font-light' data-aos="fade-right" data-aos-duration="1300">
+                    <p className='min-h-24 mt-8 text-lg sm:text-2xl max-w-3xl font-light' data-aos="fade-right" data-aos-duration="1300">
                         <TypeAnimation
                             sequence={[
                                 'He crafts responsive websites where technologies meet creativity...',

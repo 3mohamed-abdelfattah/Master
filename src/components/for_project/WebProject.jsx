@@ -23,9 +23,9 @@ export const WebProject = () => {
     return (
         <main className='relative flex flex-col items-center'>
 
-            <section className='flex flex-col mt-16'>
+            <section className='flex flex-col mt-7 vsm:mt-16'>
                 {/* header */}
-                <header className='flex flex-col px-20 md:px-36 w-full'>
+                <header className='flex flex-col px-5 vsm:px-20 md:px-36 w-full'>
                     <p className='font-semibold text-xl vsm:text-3xl mb-3' data-aos="fade-right" data-aos-duration="1000">
                         <span className='text-secondaryColor pr-1'>/</span>
                         Projects
