@@ -1,11 +1,11 @@
 import React, { Fragment } from 'react'
+import { Link } from 'react-router-dom';
 // Components
 import { Header, Footer, WebProject, MobileProject } from '@/components'
 // Icons
 import { GithubIcon, LineIcon } from '@/utils/icons.util'
 import { SiUpwork } from "react-icons/si";
 import { FaLinkedinIn } from "react-icons/fa";
-import { Link } from 'react-router-dom';
 
 export const ProjectsPage = () => {
     const styles = {
@@ -13,6 +13,7 @@ export const ProjectsPage = () => {
     }
     return (
         <Fragment>
+
             <Header />
             <WebProject />
             <MobileProject />

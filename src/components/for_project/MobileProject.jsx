@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from "react-router-dom";
 // Icons
 import { RectangleDotsIcon, BigRectangleIcon } from '@/utils/icons.util';
-// motion
+// AOS library
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -84,10 +84,10 @@ export const MobileProject = () => {
                     </article>
 
                     {/* Float Shapes */}
-                    <span className='hidden vsm:absolute left-0 top-[550px] -z-10'>
+                    <span className='hidden vsm:block absolute left-0 top-[550px] -z-10'>
                         <RectangleDotsIcon />
                     </span>
-                    <span className='hidden vsm:absolute right-0 top-[150px] scale-x-[-1] -z-10'>
+                    <span className='hidden vsm:block absolute right-0 top-[150px] scale-x-[-1] -z-10'>
                         <BigRectangleIcon />
                     </span>
 

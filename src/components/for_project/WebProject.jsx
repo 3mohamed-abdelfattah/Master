@@ -14,7 +14,7 @@ import ToDo from '@/assets/images/for_projects/web/todo.png'
 import Weather from '@/assets/images/for_projects/web/weather.png'
 import CloneGPT from '@/assets/images/for_projects/web/gpt.png'
 import EgyptID from '@/assets/images/for_projects/web/id.png'
-// motion
+// AOS library
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -221,16 +221,16 @@ export const WebProject = () => {
                     </article>
 
                     {/* Float Shapes */}
-                    <span className='hidden vsm:absolute left-0 top-[350px] -z-10'>
+                    <span className='hidden vsm:block absolute left-0 top-[350px] -z-10'>
                         <RectangleDotsIcon />
                     </span>
-                    <span className='hidden vsm:absolute right-0 top-[1250px] -z-10'>
+                    <span className='hidden vsm:block absolute right-0 top-[1250px] -z-10'>
                         <SquareDotsIcon />
                     </span>
-                    <span className='hidden vsm:absolute right-0 top-[150px] scale-x-[-1] -z-10'>
+                    <span className='hidden vsm:block absolute right-0 top-[150px] scale-x-[-1] -z-10'>
                         <BigRectangleIcon />
                     </span>
-                    <span className='hidden vsm:absolute left-0 top-[1500px] -z-10'>
+                    <span className='hidden vsm:block absolute left-0 top-[1500px] -z-10'>
                         <BigRectangleIcon />
                     </span>
 

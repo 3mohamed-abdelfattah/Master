@@ -1,5 +1,4 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-
 // Pages
 import { HomePage, ProjectsPage } from "@/pages/index.js";
 
