@@ -39,7 +39,7 @@ export const ContactSection = () => {
             </section>
 
             {/* Float Shapes */}
-            <span className='hidden md:block absolute left-0 top-[250px] -z-10'>
+            <span className='hidden md:block absolute left-0 top-[300px] -z-10'>
                 <iconsUtil.RectangleDotsIcon />
             </span>
         </main>

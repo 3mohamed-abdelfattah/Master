@@ -49,7 +49,7 @@ export const AboutSection = () => {
             <span className='hidden vsm:block absolute right-0 top-[100px] -z-10'>
                 <iconsUtil.RectangleDotsIcon />
             </span>
-            <span className='hidden vsm:block absolute left-0 top-[200px] -z-10'>
+            <span className='hidden vsm:block absolute -left-7 top-[200px] -z-10'>
                 <iconsUtil.BigRectangleIcon />
             </span>
         </main>

@@ -96,10 +96,10 @@ export const ProjectSection = () => {
             </section>
 
             {/* Float Shapes */}
-            <span className='hidden vsm:block absolute right-0 top-[100px] scale-x-[-1] -z-10'>
+            <span className='hidden vsm:block absolute right-0 top-[200px] scale-x-[-1] -z-10'>
                 <iconsUtil.BigRectangleIcon />
             </span>
-            <span className='hidden vsm:block absolute left-0 top-[300px] scale-x-[1] -z-10'>
+            <span className='hidden vsm:block absolute left-0 top-[200px] scale-x-[1] -z-10'>
                 <iconsUtil.CubeShape />
             </span>
         </main>
