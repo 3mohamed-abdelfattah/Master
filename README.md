@@ -5,7 +5,8 @@ I am **Mohamed Mohamed**, a Frontend Developer and Android Developer, currently 
 
 <div  align="center">
   
-![coins_10464509](https://github.com/user-attachments/assets/788524cd-f280-4d00-88d4-52c607063f8b)
+  ![lightBrand](https://github.com/user-attachments/assets/b1df7702-af43-4914-82d8-f6ac14f79f01)
+
 </div>
 
 ## About Me
