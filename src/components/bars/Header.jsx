@@ -60,8 +60,10 @@ export const Header = () => {
                                     contacts
                                 </a>
                             </li>
-                            <li className={styles.languageStyle}>
-                                EN<BottomArrow />
+                            <li>
+                                <Link to='/cv' className={styles.languageStyle}>
+                                    CV<BottomArrow />
+                                </Link>
                             </li>
                         </ul>
                     </nav>
@@ -94,8 +96,10 @@ export const Header = () => {
                                 contacts
                             </a>
                         </li>
-                        <li className={styles.languageStyle}>
-                            EN<BottomArrow />
+                        <li>
+                            <Link to='/cv' className={styles.languageStyle}>
+                                CV<BottomArrow />
+                            </Link>
                         </li>
                     </ul>
                 </nav>
