@@ -10,7 +10,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@react-pdf/renderer": "^4.0.0",
     "aos": "^2.3.4",
     "framer-motion": "^11.11.7",
     "react": "^18.3.1",
