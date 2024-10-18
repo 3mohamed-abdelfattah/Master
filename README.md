@@ -19,24 +19,25 @@ Welcome to my personal portfolio website! This project showcases my skills, expe
 ## Screenshots
 
  <table align="center">
-  <tr align='center'>
-    <td><img src="https://github.com/user-attachments/assets/e10a7b22-bc4e-47cd-a866-a1d77acb805f" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
-    <td><img src="https://github.com/user-attachments/assets/d3825858-6c18-421f-b06a-e7dcf5c3b34d" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
+  <tr>
+    <td><img width='750px' src="https://github.com/user-attachments/assets/e10a7b22-bc4e-47cd-a866-a1d77acb805f" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
+    <td><img width='750px' src="https://github.com/user-attachments/assets/d3825858-6c18-421f-b06a-e7dcf5c3b34d" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
   </tr>
-  <tr align='center'>
-    <td><img src="https://github.com/user-attachments/assets/0f1c902d-8886-413f-9f59-c4abd8464789" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
-    <td><img src="https://github.com/user-attachments/assets/a7dacfbf-76d2-4e0d-9ea4-f43bda9de726" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
+  <tr>
+    <td><img width='750px' src="https://github.com/user-attachments/assets/0f1c902d-8886-413f-9f59-c4abd8464789" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
+    <td><img width='750px' src="https://github.com/user-attachments/assets/a7dacfbf-76d2-4e0d-9ea4-f43bda9de726" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
   </tr>
-  <tr align='center'>
-    <td><img src="https://github.com/user-attachments/assets/122bf1d2-72ab-4652-a907-02b8a5da5958" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
-    <td><img src="https://github.com/user-attachments/assets/d433297d-a959-4cb2-86a4-2d7badcf7d23" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
+  <tr>
+    <td><img width='450px' src="https://github.com/user-attachments/assets/122bf1d2-72ab-4652-a907-02b8a5da5958" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
+    <td><img width='450px' src="https://github.com/user-attachments/assets/d433297d-a959-4cb2-86a4-2d7badcf7d23" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
   </tr>
-  <tr align='center'>
-    <td><img src="https://github.com/user-attachments/assets/87d83298-d4aa-450b-a2ee-10ea997b9d76" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
-    <td><img src="https://github.com/user-attachments/assets/9938fcd4-50a7-4c24-839a-f96904cc4d89" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
+  <tr>
+    <td><img width='450px' src="https://github.com/user-attachments/assets/87d83298-d4aa-450b-a2ee-10ea997b9d76" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
+    <td><img width='450px' src="https://github.com/user-attachments/assets/9938fcd4-50a7-4c24-839a-f96904cc4d89" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
   </tr>
-  <tr align='center'>
+  <tr>
     <td><img width='320px' src="https://github.com/user-attachments/assets/97ff1d24-429e-4496-b43b-ddfc11331f45" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
+    <td><img width='320px' src="https://github.com/user-attachments/assets/37e99032-71af-4284-8301-2c2867eca753" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
   </tr>
 </table>
 
